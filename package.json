@@ -15,6 +15,7 @@
   "dependencies": {
     "require-dir": "^1.2.0",
     "sharp": "^0.23.4",
+    "to-ico": "^1.1.5",
     "yargs": "^13.2.4"
   },
   "publishConfig": {
