@@ -30,8 +30,6 @@ Missing required argument: filename
 | sizes    | -s    | 16,32   | The icon sizes.        |
 
 ```conf
-Generate favicon icons.
-
 Options:
   --version       Show version number                                  [boolean]
   --help          Show help                                            [boolean]
