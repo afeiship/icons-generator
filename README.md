@@ -9,6 +9,19 @@
 | prefix   | -p    | icon-            | The icon prefix.       |
 | sizes    | -s    | 16,32,64,128,256 | The icon sizes.        |
 
+```conf
+Options:
+  --version       Show version number                                  [boolean]
+  --help          Show help                                            [boolean]
+  --filename, -f  The icon filename.                                  [required]
+  --size, -s      The sizes of icons.
+  --prefix, -p    The icon prefix name.
+  --output, -o    The icon output dir.
+
+Missing required argument: filename
+```
+
+
 ### favicon
 | name     | alias | default | default                |
 | -------- | ----- | ------- | ---------------------- |
@@ -16,7 +29,20 @@
 | output   | -o    | ./dist  | The target output dir. |
 | sizes    | -s    | 16,32   | The icon sizes.        |
 
+```conf
+Generate favicon icons.
 
+Options:
+  --version       Show version number                                  [boolean]
+  --help          Show help                                            [boolean]
+  --filename, -f  The input filename.                                 [required]
+  --size, -s      The sizes of icons.
+  --output, -o    The icon output dir.
+
+Missing required argument: filename
+```
+
+## usage
 ```shell
 # debug
 git clone git@github.com:afeiship/icons-generator.git
