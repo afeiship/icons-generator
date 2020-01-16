@@ -1,6 +1,8 @@
 # icons-generator
 > Icons generator.
 
+## options
+---
 ### chrome-extension
 | name     | alias | default          | default                |
 | -------- | ----- | ---------------- | ---------------------- |
