@@ -50,7 +50,7 @@ npm link
 # production
 npm install -g `your-package`
 
-icons-generator chrome-extension -f=__tests__/afei.jpg
+icons-generator chrome-extension -f=__tests__/icon.png
 icons-generator favicon -f=__tests__/afei.jpg
 ```
 
